@@ -148,7 +148,7 @@ const Hero = () => {
         <img
           src="/mushfik.jpg"
           alt="mushfik's photo"
-          className="w-2/3 h-2/3 block rounded-full"
+          className="w-2/3 md:h-2/3 h-1/3 block rounded-full"
           loading="lazy"
         />
       </motion.div>

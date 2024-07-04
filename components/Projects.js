@@ -92,7 +92,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <motion.div
             key={index}
-            className="relative flex glasseffect shadow-xl cursor-pointer w-full"
+            className="relative flex flex-col md:flex-row glasseffect shadow-xl cursor-pointer w-full"
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
