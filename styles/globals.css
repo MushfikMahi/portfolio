@@ -13,10 +13,10 @@ body {
   background-color: rgb(28, 25, 23);
   background-image: radial-gradient(
       at 69% 21%,
-      rgb(22, 79, 85) 0,
+      rgb(157, 149, 103) 0,
       transparent 56%
     ),
-    radial-gradient(at 24% 90%, rgb(66, 66, 32) 0, transparent 51%);
+    radial-gradient(at 24% 90%, rgb(22, 79, 85) 0, transparent 51%);
   color: #fff;
   overflow: auto;
   min-height: 100vh;
