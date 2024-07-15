@@ -129,8 +129,8 @@ const Hero = () => {
             <FaEnvelope className="mr-2" /> Contact Me
           </motion.a>
           <motion.a
-            href="/mushfik resume.pdf"
-            download={"mushfik resume.pdf"}
+            href="/Musfik's resume.pdf"
+            download={"Musfik's resume.pdf"}
             className="btn-glow flex items-center justify-center glasseffect"
             whileHover={{ scale: 1.1 }}
             transition={{ type: "spring", stiffness: 300 }}
