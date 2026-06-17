@@ -23,7 +23,7 @@ export default function Achievements() {
                   <p className="font-display text-4xl text-ivory sm:text-5xl">
                     <AnimatedCounter
                       value={stat.value}
-                      prefix={stat.prefix}
+                      // prefix={stat.prefix}
                       suffix={stat.suffix}
                       decimals={stat.value % 1 !== 0 ? 1 : 0}
                     />
@@ -49,12 +49,16 @@ export default function Achievements() {
                   <div className="flex h-full flex-col gap-4 border border-gold/10 p-8">
                     <Icon size={22} strokeWidth={1.25} className="text-gold" />
                     <div>
-                      <h3 className="font-display text-lg text-ivory">{item.title}</h3>
+                      <h3 className="font-display text-lg text-ivory">
+                        {item.title}
+                      </h3>
                       <p className="mt-1 font-mono text-[10px] uppercase tracking-widest2 text-gold/70">
                         {item.org}
                       </p>
                     </div>
-                    <p className="text-sm leading-relaxed text-smoke">{item.description}</p>
+                    <p className="text-sm leading-relaxed text-smoke">
+                      {item.description}
+                    </p>
                   </div>
                 </Reveal>
               );
